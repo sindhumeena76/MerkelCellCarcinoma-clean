@@ -1,0 +1,6 @@
+streamlit>=1.29.0
+tensorflow==2.20.0
+numpy>=2.1.0
+pillow
+opencv-python-headless
+fpdf
