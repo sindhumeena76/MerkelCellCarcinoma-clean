@@ -273,11 +273,11 @@ if uploaded_file:
     )
 
 
-st.success("✅ Report downloaded successfully.")
-
-if st.button("🏠 Start New Analysis"):
-    st.rerun()
-
+st.markdown("### Ready for another analysis?")
+st.link_button(
+    "🏠 Start New Analysis",
+    "https://sindhumeena7.streamlit.app/"
+)
 
 
 # -------------------------------
