@@ -272,6 +272,12 @@ if uploaded_file:
         "application/pdf"
     )
 
+
+    st.success("✅ Report downloaded successfully.")
+
+    if st.button("🏠 Start New Analysis"):
+    st.rerun()
+
 # -------------------------------
 # FOOTER
 # -------------------------------
