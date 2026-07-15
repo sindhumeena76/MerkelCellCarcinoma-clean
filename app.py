@@ -275,7 +275,7 @@ if uploaded_file:
 
     st.success("✅ Report downloaded successfully.")
 
-    if st.button("🏠 Start New Analysis"):
+if st.button("🏠 Start New Analysis"):
     st.rerun()
 
 # -------------------------------
