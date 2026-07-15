@@ -273,10 +273,12 @@ if uploaded_file:
     )
 
 
-    st.success("✅ Report downloaded successfully.")
+st.success("✅ Report downloaded successfully.")
 
 if st.button("🏠 Start New Analysis"):
-    st.experimental_rerun()
+    st.rerun()
+
+
 
 # -------------------------------
 # FOOTER
